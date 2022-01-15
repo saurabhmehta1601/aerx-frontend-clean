@@ -2,5 +2,12 @@
   "navLinkHome": "Inicio",
   "navLinkFeatures": "Funcionalidades",
   "navLinkAboutUs": "Conoce al equipo",
-  "copyRightFooter": "© 2022 aerx"
+  "navLinkLogin": "Iniciar sesión",
+  "copyRightFooter": "© 2022 aerx",
+  "subscribeTitle": "Manténme actualizado",
+  "subscribeInputPlaceholder": "luisma@email.com",
+  "subscribeInputSubmitLoading": "Cargando",
+  "subscribeInputSubmitText": "Suscríbeme",
+  "subscribeSuccessMessage": "Genial, gracias por la suscripción!",
+  "subscribeErrorMessage": "Algo ha salido mal. Por favor envía un email a dp@aerx.me y te añado personalmente."
 }

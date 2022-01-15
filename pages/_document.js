@@ -5,10 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>{/* Fonts will be here */}</Head>
-        <body
-          className="text-gray-100 dark:bg-gray-800 dark:text-gray-200"
-          style={{ backgroundColor: "#0F0111" }}
-        >
+        <body className="text-white bg-brand-dark">
           <Main />
           <NextScript />
         </body>
