@@ -9,19 +9,16 @@ export default function Menu({ toggled, setToggled }) {
 
   return (
     <div
-      className={`sm:flex sm:flex-row sm:space-x-2 ml-auto items-center  ${
+      className={`sm:ml-[142px] sm:flex sm:items-center sm:w-full ${
         toggled ? "" : "hidden"
       }`}
     >
-      <div className="hidden sm:block">
-        <ChangeLanguage />
-      </div>
       <div className="p-2" onClick={() => setToggled((prev) => !prev)}>
         <Link href={{ pathname: "/", hash: "welcome" }}>
           <a
             className={`${
-              asPath === "/#welcome" || asPath === "/"
-                ? "underline nav-item"
+              asPath === "/#welcome" || asPath === "/" || asPath === "/#"
+                ? "no-underline font-bold nav-item"
                 : "no-underline nav-item"
             }`}
           >
@@ -34,7 +31,7 @@ export default function Menu({ toggled, setToggled }) {
           <a
             className={`${
               asPath === "/#features"
-                ? "underline nav-item"
+                ? "no-underline font-bold nav-item"
                 : "no-underline nav-item"
             }`}
           >
@@ -47,12 +44,21 @@ export default function Menu({ toggled, setToggled }) {
           <a
             className={`${
               asPath === "/#aboutUs"
-                ? "underline nav-item"
+                ? "no-underline font-bold nav-item"
                 : "no-underline nav-item"
             }`}
           >
             {t("navLinkAboutUs")}
           </a>
+        </Link>
+      </div>
+
+      <div className="hidden sm:block">
+        <ChangeLanguage />
+      </div>
+      <div className="p-2 ml-auto" onClick={() => setToggled((prev) => !prev)}>
+        <Link href={{ pathname: "/", hash: "login" }}>
+          <a className="btn-login">{t("navLinkLogin")}</a>
         </Link>
       </div>
     </div>

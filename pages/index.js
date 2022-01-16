@@ -1,7 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import HeroSection from "../components/HeroSection";
+import FeaturesSection from "../components/FeaturesSection";
+import NewsLetterSection from "../components/NewsLetterSection";
+import TeamSection from "../components/TeamSection";
 
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="flex flex-col">
+      <HeroSection />
+      <FeaturesSection />
+      <NewsLetterSection />
+      <TeamSection />
+    </div>
+  );
 }
