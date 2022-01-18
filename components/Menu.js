@@ -9,7 +9,7 @@ export default function Menu({ toggled, setToggled }) {
 
   return (
     <div
-      className={`ml-2 sm:ml-[142px] sm:flex sm:items-center w-full ${
+      className={`ml-2 md:ml-[142px] md:flex md:items-center w-full ${
         toggled ? "" : "hidden"
       }`}
     >
@@ -53,7 +53,7 @@ export default function Menu({ toggled, setToggled }) {
         </Link>
       </div>
 
-      <div className="hidden sm:block">
+      <div className="hidden md:block">
         <ChangeLanguage />
       </div>
       <div

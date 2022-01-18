@@ -30,17 +30,17 @@ export default function Subscribe({ className, ...rest }) {
 
   return (
     <form
-      className={`${className} flex flex-col items-center w-[750px]`}
+      className={`${className} flex flex-col items-center md:w-[750px] px-4`}
       onSubmit={subscribe}
       {...rest}
     >
-      <h2 className="my-0 text-4xl font-semibold leading-[65px] text-center">
+      <h2 className="my-0 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold lg:leading-[65px] text-center sm:mb-6">
         {t("subscribeTitle")}
       </h2>
 
-      <div className="relative w-[445px] my-4">
+      <div className="relative sm:w-[445px] my-4">
         <input
-          className={"w-full rounded-[5px] h-11 bg-white px-4 text-brand"}
+          className={"w-full rounded-[5px] h-11 bg-white px-8 text-brand"}
           autoComplete="email"
           type="email"
           placeholder={t("subscribeInputPlaceholder")}
@@ -49,7 +49,7 @@ export default function Subscribe({ className, ...rest }) {
         />
         <input
           className={
-            "absolute flex items-center justify-center px-3 h-9 font-bold capitalize rounded-r-sm shadow-lg right-1 top-1 sm:w-28 hover:bg-brand/50 bg-brand"
+            "absolute flex items-center justify-center px-3 h-9 font-bold capitalize rounded-r-sm shadow-lg right-1 top-1 md:w-28 hover:bg-brand/50 bg-brand"
           }
           type="submit"
           value={

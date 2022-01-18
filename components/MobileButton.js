@@ -1,6 +1,6 @@
 export default function MobileButton({ toggled, setToggled }) {
   return (
-    <div className="ml-auto sm:hidden">
+    <div className="ml-auto md:hidden">
       <button
         className="block focus:outline-none focus:ring focus:border-blue-300"
         aria-label="open navigation"
