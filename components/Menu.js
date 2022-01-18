@@ -9,7 +9,7 @@ export default function Menu({ toggled, setToggled }) {
 
   return (
     <div
-      className={`sm:ml-[142px] sm:flex sm:items-center sm:w-full ${
+      className={`ml-2 sm:ml-[142px] sm:flex sm:items-center w-full ${
         toggled ? "" : "hidden"
       }`}
     >
@@ -56,7 +56,10 @@ export default function Menu({ toggled, setToggled }) {
       <div className="hidden sm:block">
         <ChangeLanguage />
       </div>
-      <div className="p-2 ml-auto" onClick={() => setToggled((prev) => !prev)}>
+      <div
+        className="p-2 mt-4 ml-auto"
+        onClick={() => setToggled((prev) => !prev)}
+      >
         <Link href={{ pathname: "/", hash: "login" }}>
           <a className="btn-login">{t("navLinkLogin")}</a>
         </Link>
