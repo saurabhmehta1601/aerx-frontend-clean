@@ -14,10 +14,10 @@ export default function ChangeLanguage() {
 
     return (
       <Link href={asPath} locale={lng} key={lng}>
-        <a className="flex items-center sm:mx-0 nav-item">
+        <a className="flex items-center mx-0 nav-item">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5"
+            className="w-8 h-8"
             viewBox="0 0 20 20"
             fill="currentColor"
           >

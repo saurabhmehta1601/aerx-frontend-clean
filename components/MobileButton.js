@@ -1,13 +1,13 @@
 export default function MobileButton({ toggled, setToggled }) {
   return (
-    <div className="ml-auto sm:hidden">
+    <div className="ml-auto md:hidden">
       <button
         className="block focus:outline-none focus:ring focus:border-blue-300"
         aria-label="open navigation"
         onClick={() => setToggled((prev) => !prev)}
       >
         {toggled ? (
-          <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
+          <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24">
             <path
               fillRule="evenodd"
               d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"

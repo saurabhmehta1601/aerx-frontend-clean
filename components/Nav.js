@@ -20,8 +20,8 @@ export default function Nav() {
   if (!mounted) return null;
 
   return (
-    <nav className="sticky top-0 z-50 items-center w-full px-4 bg-transparent sm:items-center sm:flex sm:flex-row sm:py-4 md:px-20">
-      <div className="flex flex-row items-center justify-center w-full p-2 sm:w-auto">
+    <nav className="sticky top-0 z-50 items-center w-full px-4 pb-4 bg-transparent md:flex-row md:flex md:py-4 md:px-20">
+      <div className="flex flex-row items-center justify-center w-full p-2 md:w-auto">
         <Link href={{ pathname: "/", hash: "welcome" }}>
           <a className="w-[78px] h-[75px] bg-transparent hover:bg-white">
             <Image
@@ -35,12 +35,12 @@ export default function Nav() {
             />
           </a>
         </Link>
-
+        <div className="block ml-8 md:hidden">
+          <ChangeLanguage />
+        </div>
         <MobileButton setToggled={setToggled} toggled={toggled} />
       </div>
-      <div className="block sm:hidden">
-        <ChangeLanguage />
-      </div>
+
       <Menu setToggled={setToggled} toggled={toggled} />
     </nav>
   );

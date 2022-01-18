@@ -4,9 +4,9 @@ import Footer from "./Footer";
 
 export default function Layout({ children }) {
   return (
-    <div id="welcome">
+    <div id="welcome" className="w-full px-4 md:px-0">
       <Nav />
-      <main className="sm:py-6">{children}</main>
+      <main className="md:py-6">{children}</main>
       <Footer />
     </div>
   );
