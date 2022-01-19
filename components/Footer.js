@@ -9,7 +9,7 @@ import footerLogoImg from "../public/images/aerx_logo-removebg-preview 1.jpg";
 
 export default function Footer() {
   return (
-    <footer className="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 py-10 lg:px-[100px] lg:py-[100px] lg:h-[450px] bg-white border-2 border-red-400">
+    <footer className="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 py-10 lg:px-[100px] lg:py-[100px] lg:h-[450px] bg-white">
       <div className="flex flex-col items-start w-full px-5 sm:flex-row lg:col-span-2 sm:px-16 lg:px-0 lg:flex-col">
         <div className="relative h-[82px] w-20 sm:w-44 mb-[27px]">
           <Image src={footerLogoImg} layout="fill" />
