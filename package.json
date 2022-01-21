@@ -1,6 +1,10 @@
 {
   "name": "aerx-frontend",
   "private": true,
+  "engines": {
+    "npm": "*",
+    "yarn": "PLEASE USE NPM"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
