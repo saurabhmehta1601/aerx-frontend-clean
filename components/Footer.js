@@ -67,7 +67,7 @@ export default function Footer() {
       </div>
       <div className="w-full px-5 sm:px-16 lg:px-0">
         <h5 className="text-xl sm:text-2xl font-semibold leading-9 text-black mb-4 pt-4 lg:mb-[58px] lg:pt-[15px]">
-          Get in Tuch
+          Get in Touch
         </h5>
         <div className="flex flex-row space-x-4">
           <Link href="#">
