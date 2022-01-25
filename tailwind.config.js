@@ -6,6 +6,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        jost: ["Jost", "sans-serif"],
+      },
       colors: {
         brand: {
           DEFAULT: "#9510AC",
@@ -17,6 +20,17 @@ module.exports = {
         team: {
           header: "#252B42",
           content: "#737373",
+        },
+        profile: {
+          blue: {
+            100: "#90C8EB",
+            200: "#6697E2",
+            300: "#223758",
+            400: "#1D232D",
+          },
+          gray: {
+            200: "#282828",
+          },
         },
       },
     },
