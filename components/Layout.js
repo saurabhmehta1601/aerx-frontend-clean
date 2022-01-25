@@ -1,5 +1,4 @@
 import Nav from "../components/Nav";
-import Link from "next/link";
 import Footer from "./Footer";
 
 export default function Layout({ children }) {

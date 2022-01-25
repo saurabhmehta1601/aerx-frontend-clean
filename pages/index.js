@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import FeaturesSection from "../components/FeaturesSection";
 import NewsLetterSection from "../components/NewsLetterSection";
 import TeamSection from "../components/TeamSection";
+import Layout from "../components/Layout";
 
 export default function Home() {
   <Head>
@@ -10,11 +11,13 @@ export default function Home() {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </Head>;
   return (
-    <div className="flex flex-col">
-      <HeroSection />
-      <FeaturesSection />
-      <NewsLetterSection />
-      <TeamSection />
-    </div>
+    <Layout>
+      <div className="flex flex-col">
+        <HeroSection />
+        <FeaturesSection />
+        <NewsLetterSection />
+        <TeamSection />
+      </div>
+    </Layout>
   );
 }
