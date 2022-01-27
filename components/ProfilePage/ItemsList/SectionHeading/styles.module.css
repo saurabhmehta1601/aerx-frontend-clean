@@ -1,5 +1,5 @@
 .heading {
-  @apply flex  w-full bg-transparent items-center mb-4;
+  @apply flex  w-full bg-transparent items-center cursor-pointer mb-4;
 }
 
 .line {

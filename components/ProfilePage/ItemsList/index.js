@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import CollectionItem from "./Item";
 import SectionHeading from "./SectionHeading";
-import styles from "./styles.module.css";
 
 const CollectionItemsList = (props) => {
+  const [isOpen, setIsOpen] = useState(true);
+  const toggleList = () => {
+    setIsOpen((prev) => !prev);
+  };
   return (
     <>
-      <SectionHeading>{props.title}</SectionHeading>
-      <div className={styles.itemsList}>
-        {props.items.map((item, idx) => (
-          <CollectionItem key={idx} text={item.text} icon={item.icon} />
-        ))}
-      </div>
+      <SectionHeading handleClick={toggleList} isOpen={isOpen}>
+        {props.title}
+      </SectionHeading>
+      {/* Items in List*/}
+      {isOpen && (
+        <div className={`flex  w-full justify-around mb-4 h-12  `}>
+          {props.items.map((item, idx) => (
+            <CollectionItem key={idx} text={item.text} icon={item.icon} />
+          ))}
+        </div>
+      )}
     </>
   );
 };
