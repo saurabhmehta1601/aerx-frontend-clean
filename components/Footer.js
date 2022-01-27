@@ -4,8 +4,8 @@ import logo from "../public/images/aerx_log.png";
 import facebook from "../public/images/facebook.svg";
 import twitter from "../public/images/twitter.svg";
 import linkedIn from "../public/images/linkedIn.svg";
-import footerLogo from "../public/images/aerx_logo-removebg-preview 1.svg";
-import footerLogoImg from "../public/images/aerx_logo-removebg-preview 1.jpg";
+import footerLogo from "../public/images/aerx_logo-removebg.svg";
+import footerLogoImg from "../public/images/aerx_logo-removebg.jpg";
 
 export default function Footer() {
   return (

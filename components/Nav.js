@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import aerxLogo from "../public/images/aerx_logo-removebg-preview 1.svg";
+import aerxLogo from "../public/images/aerx_logo-removebg.svg";
 import Menu from "./Menu";
 import MobileButton from "./MobileButton";
 import ChangeLanguage from "./ChangeLanguage";
