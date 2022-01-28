@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 import UserBio from "./UserBio";
+import UserInfo from "./UserInfo";
 
 const Sidebar = (props) => {
   return (
@@ -29,6 +30,7 @@ const Sidebar = (props) => {
         userName="ivan.ivanov"
         about="I work as a doctor, but in my free time I like to make funny pictures and videos. See more details in my collection ."
       />
+      <UserInfo balance="786,01" />
     </aside>
   );
 };

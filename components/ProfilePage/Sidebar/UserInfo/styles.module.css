@@ -1,0 +1,24 @@
+.userInfoContainer {
+  @apply px-2 py-4 flex justify-between;
+}
+
+.userInfoType {
+  @apply text-xs font-jost relative -left-1 mb-1;
+}
+
+.balanceHeading {
+  @apply text-xs  font-sans text-profile-blue-50;
+}
+
+.balance {
+  @apply font-jost text-xl font-bold mb-3;
+}
+
+.uploadBtn,
+.downloadBtn {
+  @apply rounded-full bg-blue-500 p-2;
+}
+
+.iconButtonsContainer {
+  @apply px-6;
+}

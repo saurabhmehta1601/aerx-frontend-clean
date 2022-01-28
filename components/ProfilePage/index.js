@@ -13,9 +13,9 @@ const ProfilePage = () => {
       <div className={styles.mainContainer}>
         <Main />
       </div>
-
-      <div className={styles.iconButtonsGroupContainer}></div>
-      <FloatingIconButtons />
+      <div className={styles.iconButtonsGroupContainer}>
+        <FloatingIconButtons />
+      </div>
     </div>
   );
 };
