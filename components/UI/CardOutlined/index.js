@@ -1,7 +1,8 @@
 import React from "react";
+import styles from "./styles.module.css";
 
-const CardOutlined = () => {
-  return <div></div>;
+const CardOutlined = (props) => {
+  return <div className={styles.outlinedCard}>{props.children}</div>;
 };
 
 export default CardOutlined;
