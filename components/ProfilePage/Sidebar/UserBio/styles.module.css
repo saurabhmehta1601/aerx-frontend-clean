@@ -1,0 +1,31 @@
+.userBioContainer {
+  @apply px-4 pt-6 text-sm;
+}
+
+.flexContainer {
+  @apply flex justify-between;
+}
+
+.displayName {
+  @apply text-2xl text-profile-blue-100 font-bold font-work-sans;
+}
+
+.followBtn {
+  @apply px-4 py-1 rounded-3xl bg-profile-blue-50  text-sm text-profile-gray-200 font-bold font-work-sans flex justify-between items-center;
+}
+
+.addIcon {
+  @apply ml-2 text-sm;
+}
+
+.userName {
+  @apply text-sm text-profile-blue-50 mb-6;
+}
+
+.aboutHeading {
+  @apply font-jost text-profile-gray-300 font-bold;
+}
+
+.aboutContent {
+  @apply text-xs font-bold font-sans;
+}
