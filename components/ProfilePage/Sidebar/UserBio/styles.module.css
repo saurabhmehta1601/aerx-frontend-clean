@@ -23,9 +23,9 @@
 }
 
 .aboutHeading {
-  @apply font-jost text-profile-gray-300 font-bold;
+  @apply mb-1  text-profile-gray-300  text-sm font-work-sans;
 }
 
 .aboutContent {
-  @apply text-xs font-bold font-sans;
+  @apply text-xs  font-work-sans font-bold tracking-wide;
 }
