@@ -19,7 +19,7 @@
 }
 
 .userName {
-  @apply text-sm text-profile-blue-50 mb-6;
+  @apply text-sm text-profile-blue-50 mb-4;
 }
 
 .aboutHeading {

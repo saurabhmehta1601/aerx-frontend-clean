@@ -16,7 +16,7 @@
 
 .uploadBtn,
 .downloadBtn {
-  @apply rounded-full bg-blue-500 p-2 cursor-pointer;
+  @apply rounded-full bg-blue-500 p-2 cursor-pointer text-3xl;
 }
 
 .iconButtonsContainer {

@@ -1,0 +1,15 @@
+.userMenu {
+  @apply flex justify-evenly;
+}
+.userMenu > div {
+  @apply flex flex-col  items-center gap-y-2;
+}
+.userMenu i {
+  @apply bg-profile-blue-400 p-2 rounded-lg text-sm  cursor-pointer;
+}
+.userMenu p {
+  @apply text-sm;
+}
+.menuIcon {
+  @apply text-gray-50;
+}

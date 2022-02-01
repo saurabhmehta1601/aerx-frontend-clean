@@ -1,5 +1,5 @@
 .sidebar {
-  @apply bg-profile-blue-300 text-3xl h-full w-full p-4;
+  @apply bg-profile-blue-300  h-full w-full p-4;
 }
 
 .profileImgContainer {

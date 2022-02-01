@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 import UserBio from "./UserBio";
 import UserInfo from "./UserInfo";
+import UserMenu from "./UserMenu";
 
 const Sidebar = (props) => {
   return (
@@ -39,6 +40,7 @@ const Sidebar = (props) => {
         likes="10K"
         reposts="875"
       />
+      <UserMenu />
     </aside>
   );
 };
